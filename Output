@@ -1,0 +1,79 @@
+Part 1
+Flow 1 (10.0.0.1 -> 10.3.3.2)
+  Tx Packets: 81395
+  Tx Bytes:   124367136
+  Rx Packets: 81376
+  Rx Bytes:   124338104
+  Throughput: 7.87609 Mbps
+  Packets Lost 19
+Flow 3 (10.1.1.1 -> 10.4.4.2)
+  Tx Packets: 80838
+  Tx Bytes:   123516040
+  Rx Packets: 80828
+  Rx Bytes:   123500760
+  Throughput: 7.79655 Mbps
+  Packets Lost 10
+Flow 5 (10.2.2.1 -> 10.5.5.2)
+  Tx Packets: 82227
+  Tx Bytes:   125638432
+  Rx Packets: 82083
+  Rx Bytes:   125418400
+  Throughput: 7.97391 Mbps
+  Packets Lost 72
+
+Max throughput for TCP Hybla: 8171.31 Kbps
+Max throughput for TCP Westwood: 7981.61 Kbps
+Max throughput for TCP Yeah: 8243.52 Kbps
+
+Part 2
+
+IP Header size is: 20
+TCP Header size is: 20
+TCP ADU size is: 1476
+Run Simulation.
+Flow 1 (10.0.0.1 -> 10.3.3.2)
+  Tx Packets: 35245
+  Tx Bytes:   53849936
+  Rx Packets: 35209
+  Rx Bytes:   53794928
+  Throughput: 3.30538 Mbps
+  Packets Lost 36
+Flow 2 (10.3.3.2 -> 10.0.0.1)
+  Tx Packets: 18578
+  Tx Bytes:   988436
+  Rx Packets: 18578
+  Rx Bytes:   988436
+  Throughput: 0.0608218 Mbps
+  Packets Lost 0
+Flow 3 (10.1.1.1 -> 10.4.4.2)
+  Tx Packets: 48230
+  Tx Bytes:   73691016
+  Rx Packets: 48079
+  Rx Bytes:   73460288
+  Throughput: 3.91508 Mbps
+  Packets Lost 151
+Flow 4 (10.4.4.2 -> 10.1.1.1)
+  Tx Packets: 26628
+  Tx Bytes:   1454572
+  Rx Packets: 26628
+  Rx Bytes:   1454572
+  Throughput: 0.0776297 Mbps
+  Packets Lost 0
+Flow 5 (10.2.2.1 -> 10.5.5.2)
+  Tx Packets: 58132
+  Tx Bytes:   88821272
+  Rx Packets: 58116
+  Rx Bytes:   88796824
+  Throughput: 3.78787 Mbps
+  Packets Lost 16
+Flow 6 (10.5.5.2 -> 10.2.2.1)
+  Tx Packets: 29506
+  Tx Bytes:   1541996
+  Rx Packets: 29506
+  Rx Bytes:   1541996
+  Throughput: 0.0658443 Mbps
+  Packets Lost 0
+Max throughput for TCP Hybla: 7421.11Kbps
+Max throughput for TCP Westwood: 3996.77Kbps
+Max throughput for TCP Yeah: 3832.51Kbps
+
